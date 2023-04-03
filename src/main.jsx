@@ -7,7 +7,12 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <div className="container">
       <header>
         <h1>Abduvohob</h1>
-        <h2>@Abdu_vohob telegram me</h2>
+        <a
+          style={{ textDecoration: "none", fontSize: "20px", color: "white" }}
+          href="https://t.me/@takhirov_a_h"
+        >
+          Telegram me
+        </a>
         <h3>994339065 phone number me</h3>
       </header>
 
