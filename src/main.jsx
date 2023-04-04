@@ -8,6 +8,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <header>
         <h1>Abduvohob</h1>
         <a
+          className="link"
           style={{ textDecoration: "none", fontSize: "20px", color: "white" }}
           href="https://t.me/@takhirov_a_h"
         >

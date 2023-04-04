@@ -1,3 +1,27 @@
+@media only screen and (max-width: 540px) and (min-width: 0px) {
+  .container {
+    width: 540px;
+    margin: 0 auto;
+    padding: 0px;
+  }
+  header {
+    flex-direction: column;
+    h1 {
+      font-size: 48px;
+    }
+    h3 {
+      font-size: 45px;
+    }
+    a {
+      font-size: 45px;
+    }
+  }
+  .Pokemon {
+    width: 540px;
+    transform: translateX(350px);
+  }
+}
+
 .container {
   width: 1240px;
   margin: 0 auto;
