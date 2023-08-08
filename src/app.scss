@@ -15,6 +15,23 @@
     a {
       font-size: 45px;
     }
+    .information {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background-color: black;
+      padding: 5px;
+      border: 10px;
+      width: 300px;
+    }
+    .informationLeft {
+      width: 150px;
+    }
+    .informationLogo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+    }
   }
   .Pokemon {
     width: 540px;
@@ -126,4 +143,21 @@ header {
   color: white;
   padding: 25px 50px;
   border-radius: 25px;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: navy;
+  padding: 15px;
+  border-radius: 25px;
+}
+.informationLogo {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+.informationLeft {
+  width: 500px;
 }

@@ -16,6 +16,23 @@
   header a {
     font-size: 45px;
   }
+  header .information {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 5px;
+    border: 10px;
+    width: 300px;
+  }
+  header .informationLeft {
+    width: 150px;
+  }
+  header .informationLogo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
   .Pokemon {
     width: 540px;
     transform: translateX(350px);
@@ -25,16 +42,12 @@
   }
 }
 .container {
-  width: 1240px;
-  margin: 0 auto;
-  background-color: grey;
-  color: white;
-  padding: 25px 50px;
+  background-color: black;
 }
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -124,4 +137,38 @@ header {
   background-color: black;
   padding: 10px;
   border-radius: 15px;
-} /*# sourceMappingURL=app.css.map */
+}
+
+.informatin {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container-part-two {
+  width: 1240px;
+  margin: 0 auto;
+  background-color: grey;
+  color: white;
+  padding: 25px 50px;
+  border-radius: 25px;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: navy;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.informationLogo {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.informationLeft {
+  width: 500px;
+}/*# sourceMappingURL=app.css.map */
