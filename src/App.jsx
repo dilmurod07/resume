@@ -51,9 +51,9 @@ function App() {
           <h3 className="name">{pokemon.attack}</h3>
           <h4 className="name">{pokemon.defense}</h4>
           <p className="pokemon__p">{pokemon.type}</p>
-          <h1 className="Pokemon">Pokemon API End</h1>
         </div>
       </div>
+      <h1 className="Pokemon">Pokemon API End</h1>
     </div>
   );
 }

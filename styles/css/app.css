@@ -20,6 +20,9 @@
     width: 540px;
     transform: translateX(350px);
   }
+  input {
+    width: 250px;
+  }
 }
 .container {
   width: 1240px;
@@ -31,7 +34,7 @@
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -43,13 +46,13 @@ header {
   font-size: 40px;
   color: white;
   background-color: darkcyan;
-  height: 100px;
 }
 
 .searchArea {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 25px;
 }
 .searchArea input {
   height: 50px;
@@ -89,4 +92,36 @@ header {
 .pokemon__p {
   text-align: center;
   font-size: 32px;
-}/*# sourceMappingURL=app.css.map */
+}
+
+.ballcards {
+  display: inline-block;
+}
+
+.ball {
+  width: 300px;
+  background-color: black;
+  color: white;
+  margin-top: 25px;
+  padding: 10px 25px;
+  border-radius: 15px;
+  box-shadow: 5px 2px 2px white;
+  margin-left: 50px;
+}
+
+.informatin {
+  text-align: center;
+  color: darkolivegreen;
+}
+
+.ballimg {
+  width: 275px;
+  border-radius: 15px;
+  height: 250px;
+}
+
+.Card {
+  background-color: black;
+  padding: 10px;
+  border-radius: 15px;
+} /*# sourceMappingURL=app.css.map */
