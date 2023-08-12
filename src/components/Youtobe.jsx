@@ -14,11 +14,8 @@ const Youtobe = () => {
   console.log(football);
   return (
     <div>
-      <h1 className="informatin">
-        bu yerda shunchaki API bilan ishlay olishim haqida malumot men backend
-        bilan boglanganman nu yerda sizga maqul bolsa tepada men bilan boglanish
-        mumkin bolgan hamma narsa mavjud
-      </h1>
+      <h1 className="informatin">Я подключен к серверной части здесь</h1>
+      <h1 className="informatin">я хочу быть частью команды crowe</h1>
       {football.map((users) => {
         return (
           <div className="ballcards">
