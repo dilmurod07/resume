@@ -42,9 +42,9 @@
   }
 }
 
-.container {
-  background-color: black;
-}
+// .container {
+//   background-color: black;
+// }
 header {
   display: flex;
   justify-content: space-between;
@@ -107,7 +107,7 @@ header {
 }
 .ball {
   width: 300px;
-  background-color: black;
+  background-color: midnightblue;
   color: white;
   margin-top: 25px;
   padding: 10px 25px;

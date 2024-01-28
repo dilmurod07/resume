@@ -7,8 +7,11 @@ const Information = () => {
         <h1>
           mening ismim <strong>Abduvohob</strong>
           <p>
-            men 16 yoshdaman men web-dasturlashga qiziqaman hozirda najot
-            talimda backend node js yonalishida oqiyapman
+            I am sixteen years old. I know html , scss , css , react ,
+            java-script, express, http. man 16 yoshdaman . man html , css , scss
+            , react, java-script , express, http larni bilaman. men bilan
+            bog'lanish uchun tepadagi nomerga murojat qiling , men bu yerda
+            korganingizda koproq narsani uddalay olaman
           </p>
         </h1>
       </div>

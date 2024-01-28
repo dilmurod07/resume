@@ -14,8 +14,11 @@ const Youtobe = () => {
   console.log(football);
   return (
     <div>
-      <h1 className="informatin">Я подключен к серверной части здесь</h1>
-      <h1 className="informatin">я хочу быть частью команды crowe</h1>
+      <h1 className="informatin">
+        qaytaraman men bunda koproq ish qolimda keladi men portfoliaga e'tibor
+        bermaganman yaxshisi men bilan bog'laning
+      </h1>
+
       {football.map((users) => {
         return (
           <div className="ballcards">
